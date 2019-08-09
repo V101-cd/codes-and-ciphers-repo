@@ -4,3 +4,30 @@ html,body {
   font-family: 'IM Fell DW Pica SC', serif;
 
 }
+
+.timeline {
+  height: 100vh;
+  background-image: url('../arrow3.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-block {
+  display: flex;
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 40%;
+}
+
+.time-block-right {
+  justify-content: flex-end;
+  margin-left: 40%;
+  margin-right: 0;
+}
+
+.time-block a {
+  display: inline-block;
+}
